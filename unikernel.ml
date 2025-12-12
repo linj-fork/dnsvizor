@@ -1,4 +1,5 @@
 open Lwt.Infix
+open Metrics_lwt
 
 module CA = struct
   let prefix =
